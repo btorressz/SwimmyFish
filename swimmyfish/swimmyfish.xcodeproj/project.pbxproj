@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19327F2F228B7C4D008E03C6 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19327F2E228B7C4D008E03C6 /* GameElements.swift */; };
+		19E906F521B0B0D5004A504B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E906F421B0B0D5004A504B /* AppDelegate.swift */; };
+		19E906F721B0B0D5004A504B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19E906F621B0B0D5004A504B /* GameScene.sks */; };
+		19E906F921B0B0D5004A504B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19E906F821B0B0D5004A504B /* Actions.sks */; };
+		19E906FB21B0B0D5004A504B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E906FA21B0B0D5004A504B /* GameScene.swift */; };
+		19E906FD21B0B0D5004A504B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E906FC21B0B0D5004A504B /* GameViewController.swift */; };
+		19E9070021B0B0D5004A504B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E906FE21B0B0D5004A504B /* Main.storyboard */; };
+		19E9070221B0B0D8004A504B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E9070121B0B0D8004A504B /* Assets.xcassets */; };
+		19E9070521B0B0D8004A504B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E9070321B0B0D8004A504B /* LaunchScreen.storyboard */; };
+		19E9071021B0B0D8004A504B /* swimmyfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9070F21B0B0D8004A504B /* swimmyfishTests.swift */; };
+		19E9071B21B0B0D8004A504B /* swimmyfishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9071A21B0B0D8004A504B /* swimmyfishUITests.swift */; };
+		19E9072921B0B188004A504B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9072821B0B188004A504B /* MenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19E9070C21B0B0D8004A504B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E906E921B0B0D5004A504B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E906F021B0B0D5004A504B;
+			remoteInfo = swimmyfish;
+		};
+		19E9071721B0B0D8004A504B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E906E921B0B0D5004A504B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E906F021B0B0D5004A504B;
+			remoteInfo = swimmyfish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19327F2E228B7C4D008E03C6 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		19E906F121B0B0D5004A504B /* swimmyfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swimmyfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E906F421B0B0D5004A504B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19E906F621B0B0D5004A504B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		19E906F821B0B0D5004A504B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		19E906FA21B0B0D5004A504B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		19E906FC21B0B0D5004A504B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		19E906FF21B0B0D5004A504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19E9070121B0B0D8004A504B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E9070421B0B0D8004A504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19E9070621B0B0D8004A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E9070B21B0B0D8004A504B /* swimmyfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swimmyfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E9070F21B0B0D8004A504B /* swimmyfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swimmyfishTests.swift; sourceTree = "<group>"; };
+		19E9071121B0B0D8004A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E9071621B0B0D8004A504B /* swimmyfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swimmyfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E9071A21B0B0D8004A504B /* swimmyfishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swimmyfishUITests.swift; sourceTree = "<group>"; };
+		19E9071C21B0B0D8004A504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E9072821B0B188004A504B /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E906EE21B0B0D5004A504B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9070821B0B0D8004A504B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9071321B0B0D8004A504B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E906E821B0B0D5004A504B = {
+			isa = PBXGroup;
+			children = (
+				19E906F321B0B0D5004A504B /* swimmyfish */,
+				19E9070E21B0B0D8004A504B /* swimmyfishTests */,
+				19E9071921B0B0D8004A504B /* swimmyfishUITests */,
+				19E906F221B0B0D5004A504B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E906F221B0B0D5004A504B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E906F121B0B0D5004A504B /* swimmyfish.app */,
+				19E9070B21B0B0D8004A504B /* swimmyfishTests.xctest */,
+				19E9071621B0B0D8004A504B /* swimmyfishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E906F321B0B0D5004A504B /* swimmyfish */ = {
+			isa = PBXGroup;
+			children = (
+				19E906F421B0B0D5004A504B /* AppDelegate.swift */,
+				19E906F621B0B0D5004A504B /* GameScene.sks */,
+				19E906F821B0B0D5004A504B /* Actions.sks */,
+				19E906FA21B0B0D5004A504B /* GameScene.swift */,
+				19327F2E228B7C4D008E03C6 /* GameElements.swift */,
+				19E9072821B0B188004A504B /* MenuScene.swift */,
+				19E906FC21B0B0D5004A504B /* GameViewController.swift */,
+				19E906FE21B0B0D5004A504B /* Main.storyboard */,
+				19E9070121B0B0D8004A504B /* Assets.xcassets */,
+				19E9070321B0B0D8004A504B /* LaunchScreen.storyboard */,
+				19E9070621B0B0D8004A504B /* Info.plist */,
+			);
+			path = swimmyfish;
+			sourceTree = "<group>";
+		};
+		19E9070E21B0B0D8004A504B /* swimmyfishTests */ = {
+			isa = PBXGroup;
+			children = (
+				19E9070F21B0B0D8004A504B /* swimmyfishTests.swift */,
+				19E9071121B0B0D8004A504B /* Info.plist */,
+			);
+			path = swimmyfishTests;
+			sourceTree = "<group>";
+		};
+		19E9071921B0B0D8004A504B /* swimmyfishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19E9071A21B0B0D8004A504B /* swimmyfishUITests.swift */,
+				19E9071C21B0B0D8004A504B /* Info.plist */,
+			);
+			path = swimmyfishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E906F021B0B0D5004A504B /* swimmyfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E9071F21B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfish" */;
+			buildPhases = (
+				19E906ED21B0B0D5004A504B /* Sources */,
+				19E906EE21B0B0D5004A504B /* Frameworks */,
+				19E906EF21B0B0D5004A504B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swimmyfish;
+			productName = swimmyfish;
+			productReference = 19E906F121B0B0D5004A504B /* swimmyfish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19E9070A21B0B0D8004A504B /* swimmyfishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E9072221B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfishTests" */;
+			buildPhases = (
+				19E9070721B0B0D8004A504B /* Sources */,
+				19E9070821B0B0D8004A504B /* Frameworks */,
+				19E9070921B0B0D8004A504B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E9070D21B0B0D8004A504B /* PBXTargetDependency */,
+			);
+			name = swimmyfishTests;
+			productName = swimmyfishTests;
+			productReference = 19E9070B21B0B0D8004A504B /* swimmyfishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19E9071521B0B0D8004A504B /* swimmyfishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E9072521B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfishUITests" */;
+			buildPhases = (
+				19E9071221B0B0D8004A504B /* Sources */,
+				19E9071321B0B0D8004A504B /* Frameworks */,
+				19E9071421B0B0D8004A504B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E9071821B0B0D8004A504B /* PBXTargetDependency */,
+			);
+			name = swimmyfishUITests;
+			productName = swimmyfishUITests;
+			productReference = 19E9071621B0B0D8004A504B /* swimmyfishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E906E921B0B0D5004A504B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Brandon Torres";
+				TargetAttributes = {
+					19E906F021B0B0D5004A504B = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					19E9070A21B0B0D8004A504B = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 19E906F021B0B0D5004A504B;
+					};
+					19E9071521B0B0D8004A504B = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 19E906F021B0B0D5004A504B;
+					};
+				};
+			};
+			buildConfigurationList = 19E906EC21B0B0D5004A504B /* Build configuration list for PBXProject "swimmyfish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E906E821B0B0D5004A504B;
+			productRefGroup = 19E906F221B0B0D5004A504B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E906F021B0B0D5004A504B /* swimmyfish */,
+				19E9070A21B0B0D8004A504B /* swimmyfishTests */,
+				19E9071521B0B0D8004A504B /* swimmyfishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E906EF21B0B0D5004A504B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E9070021B0B0D5004A504B /* Main.storyboard in Resources */,
+				19E906F721B0B0D5004A504B /* GameScene.sks in Resources */,
+				19E9070221B0B0D8004A504B /* Assets.xcassets in Resources */,
+				19E9070521B0B0D8004A504B /* LaunchScreen.storyboard in Resources */,
+				19E906F921B0B0D5004A504B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9070921B0B0D8004A504B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9071421B0B0D8004A504B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E906ED21B0B0D5004A504B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19327F2F228B7C4D008E03C6 /* GameElements.swift in Sources */,
+				19E906FB21B0B0D5004A504B /* GameScene.swift in Sources */,
+				19E9072921B0B188004A504B /* MenuScene.swift in Sources */,
+				19E906FD21B0B0D5004A504B /* GameViewController.swift in Sources */,
+				19E906F521B0B0D5004A504B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9070721B0B0D8004A504B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E9071021B0B0D8004A504B /* swimmyfishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E9071221B0B0D8004A504B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E9071B21B0B0D8004A504B /* swimmyfishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E9070D21B0B0D8004A504B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E906F021B0B0D5004A504B /* swimmyfish */;
+			targetProxy = 19E9070C21B0B0D8004A504B /* PBXContainerItemProxy */;
+		};
+		19E9071821B0B0D8004A504B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E906F021B0B0D5004A504B /* swimmyfish */;
+			targetProxy = 19E9071721B0B0D8004A504B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E906FE21B0B0D5004A504B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E906FF21B0B0D5004A504B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19E9070321B0B0D8004A504B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E9070421B0B0D8004A504B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E9071D21B0B0D8004A504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19E9071E21B0B0D8004A504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E9072021B0B0D8004A504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19E9072121B0B0D8004A504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19E9072321B0B0D8004A504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swimmyfish.app/swimmyfish";
+			};
+			name = Debug;
+		};
+		19E9072421B0B0D8004A504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swimmyfish.app/swimmyfish";
+			};
+			name = Release;
+		};
+		19E9072621B0B0D8004A504B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swimmyfish;
+			};
+			name = Debug;
+		};
+		19E9072721B0B0D8004A504B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swimmyfishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brandon-Torres.swimmyfishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swimmyfish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E906EC21B0B0D5004A504B /* Build configuration list for PBXProject "swimmyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E9071D21B0B0D8004A504B /* Debug */,
+				19E9071E21B0B0D8004A504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E9071F21B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E9072021B0B0D8004A504B /* Debug */,
+				19E9072121B0B0D8004A504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E9072221B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E9072321B0B0D8004A504B /* Debug */,
+				19E9072421B0B0D8004A504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E9072521B0B0D8004A504B /* Build configuration list for PBXNativeTarget "swimmyfishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E9072621B0B0D8004A504B /* Debug */,
+				19E9072721B0B0D8004A504B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E906E921B0B0D5004A504B /* Project object */;
+}
